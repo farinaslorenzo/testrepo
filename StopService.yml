@@ -1,0 +1,8 @@
+---
+- name: This is the service stop
+  hosts: all
+  tasks:
+  - service:
+      name: NetworkManager
+      state: stopped
+      enabled: no
