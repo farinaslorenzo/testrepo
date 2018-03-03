@@ -1,6 +1,6 @@
 ---
 - name: This is the service stop
-  hosts: al
+  hosts: all
   tasks:
   - service:
       name: NetworkManager
